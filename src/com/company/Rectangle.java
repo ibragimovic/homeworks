@@ -5,6 +5,12 @@ public class Rectangle {
     int width;
     String color;
 
+    public  Rectangle(){}
+    public  Rectangle(int h, int width){
+        this.height = h;
+        this.width = width;
+    }
+
     public void setHeight(int h){
         if (h <= 0){
             System.out.println("Height can't be less than 0 or 0.");
@@ -20,7 +26,7 @@ public class Rectangle {
         this.width = width;
     }
 
-        public void setColor(String color){
+    public void setColor(String color){
         this.color = color;
     }
 

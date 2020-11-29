@@ -27,7 +27,7 @@ public class Main {
 //        System.out.println("Square area = " + square.getArea() +
 //                ", color is " + square.getColor() + ".");
 
-          Rectangle square = new Rectangle();
+        Rectangle square = new Rectangle();
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
 
@@ -39,5 +39,7 @@ public class Main {
 
         Rectangle rect3 = new Rectangle();
         System.out.println("Rect 3 height = " + rect3.getHeight());
+
+        Rectangle rect4 = new Rectangle(45, 50);
     }
 }
